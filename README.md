@@ -7,3 +7,5 @@ Pam-devel安装步骤
 wget wget http://mirror.centos.org/centos/6/os/x86_64/Packages/pam-devel-1.1.1-24.el6.x86_64.rpm
 yum -y install pam-devel-1.1.1-24.el6.x86_64.rpm
 ```
+
+`注：记得给个 Star 哦！`
