@@ -7,7 +7,7 @@
 git clone https://github.com/stone-snginx/update-openssh.git
 cd update-openssh
 chmod +x update_openssh.sh
-./update_openssh.sh
+./update_openssh.sh  #执行后，根据提示输入即可
 
 ```
 ### 注：本脚本测试通过Centos6.5—Centos6.9, Centos6.8出现编译失败时需要安装pam-devel扩展
