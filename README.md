@@ -16,5 +16,8 @@ Pam-devel安装步骤
 wget wget http://mirror.centos.org/centos/6/os/x86_64/Packages/pam-devel-1.1.1-24.el6.x86_64.rpm
 yum -y install pam-devel-1.1.1-24.el6.x86_64.rpm
 ```
-
+### DropBear使用方法
+```
+ssh your username@your ip -p 6666   #回车后输入密码即可，和ssh登录方式一致
+```
 `注：记得给个 Star 哦！`
