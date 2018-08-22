@@ -1,5 +1,12 @@
 升级OpenSSH,OpenSSL
 
+```
+#脚本使用步骤
+git clone https://github.com/stone-snginx/update-openssh.git
+cd update-openssh
+chmod +x update_openssh.sh
+./update_openssh.sh
+```
 本脚本测试通过Centos6.5—Centos6.9, Centos6.8出现编译失败时需要安装pam-devel扩展
 
 Pam-devel安装步骤
