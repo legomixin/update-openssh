@@ -256,6 +256,7 @@ cp -rf /tmp/$openssh_version/contrib/redhat/sshd.pam /etc/pam.d/sshd
 chmod +x /etc/init.d/sshd
 chkconfig --add sshd
 sed -i 's/#PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/sshd_config
+sed -i 's/#Port 22/Port 60022/' /etc/ssh/sshd_config
 if [ $rhel7_version == 1 ];then
 chmod 600 /etc/ssh/ssh_host_rsa_key
 chmod 600 /etc/ssh/ssh_host_ecdsa_key
