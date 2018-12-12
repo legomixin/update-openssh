@@ -20,4 +20,4 @@ yum -y install pam-devel-1.1.1-24.el6.x86_64.rpm
 ```
 ssh your username@your ip -p 6666   #回车后输入密码即可，和ssh登录方式一致
 ```
-`注：记得给个 Star 哦！`
+`注：升级完成后，ssh 服务端口会默认更改为 60022 ; 记得给个 Star 哦！`
